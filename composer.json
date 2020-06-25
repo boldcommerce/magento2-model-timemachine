@@ -1,0 +1,24 @@
+{
+  "name": "boldcommerce/magento2-modeltimemachine",
+  "description": "Model timemachine",
+  "require": {
+    "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+  },
+  "type": "magento2-module",
+  "keywords": ["magento2"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bold Commerce BV",
+      "email": "info@boldcommerce.nl"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bold\\ModelTimemachine\\": ""
+    }
+  }
+}

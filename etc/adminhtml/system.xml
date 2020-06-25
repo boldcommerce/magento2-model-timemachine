@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="bold_modeltimemachine" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Timemachine</label>
+            <tab>bold_commerce</tab>
+            <resource>Bold_Mpoint::system_config</resource>
+            <group id="general" sortOrder="1" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="enabled" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

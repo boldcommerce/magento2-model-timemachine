@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Bold\ModelTimemachine\Api\ActionRepositoryInterface" type="Bold\ModelTimemachine\Model\ActionRepository"/>
+    <preference for="Bold\ModelTimemachine\Api\Data\ActionInterface" type="Bold\ModelTimemachine\Model\Data\Action"/>
+    <preference for="Bold\ModelTimemachine\Api\Data\ActionSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+</config>

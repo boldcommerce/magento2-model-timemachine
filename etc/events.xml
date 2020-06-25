@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="model_save_after">
+        <observer name="bold_model_timemachine" instance="Bold\ModelTimemachine\Observers\ModelSaveAfter\RegisterModelAction" />
+    </event>
+</config>
