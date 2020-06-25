@@ -4,8 +4,8 @@
     <system>
         <section id="bold_modeltimemachine" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Timemachine</label>
-            <tab>bold_commerce</tab>
-            <resource>Bold_Mpoint::system_config</resource>
+            <tab>bold</tab>
+            <resource>Bold_ModelTimemachine::system_config</resource>
             <group id="general" sortOrder="1" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                 <field id="enabled" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enabled</label>
