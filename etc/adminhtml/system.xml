@@ -3,8 +3,8 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <section id="bold_modeltimemachine" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Timemachine</label>
-            <tab>bold</tab>
+            <label>Bold Timemachine</label>
+            <tab>advanced</tab>
             <resource>Bold_ModelTimemachine::system_config</resource>
             <group id="general" sortOrder="1" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                 <field id="enabled" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
