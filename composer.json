@@ -2,7 +2,7 @@
   "name": "boldcommerce/magento2-model-timemachine",
   "description": "Model timemachine",
   "require": {
-    "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+    "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.1"
   },
   "type": "magento2-module",
   "keywords": ["magento2"],
